@@ -4,8 +4,5 @@ module.exports = {
     extend: {},
   },
   variants: {},
-  plugins: [
-    require('tailwindcss'),
-    require('autoprefixer'),
-  ],
+  plugins: [],
 }
