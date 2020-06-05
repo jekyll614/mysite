@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.header-navi {
+  @apply flex;
+}
+
+.header-nav-menu {
+  @apply m-4;
+}
