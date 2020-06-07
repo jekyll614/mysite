@@ -2,10 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-.header-navi {
+.header__nav {
   @apply flex;
 }
 
-.header-nav-menu {
+.header__nav-menu {
   @apply m-4;
 }
