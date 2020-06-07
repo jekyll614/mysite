@@ -1,9 +1,4 @@
-/* palette */
-$MainColor: #000000;
-$SubColor: #000000;
-$AccentColor: #000000;
-$CvColor: #000000;
-/* ------- */
+@import "palette.scss";
 
 html {
   font-size: 62.5%

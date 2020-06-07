@@ -1,11 +1,2 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
-.header__nav {
-  @apply flex;
-}
-
-.header__nav-menu {
-  @apply m-4;
-}
+@import "common/_layout.scss";
+@import "_header.scss";
