@@ -1,2 +1,8 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 @import "common/_layout.scss";
-@import "_header.scss";
+@import "common/_component.scss";
+@import "project/_header.scss";
+@import "project/_main-visual.scss";

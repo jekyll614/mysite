@@ -1,10 +1,36 @@
-<header>
-  <h1 class="header__site-name font-hide">CatEye.note</h1>
-  <ul class="header__nav">
-    <li class="header__nav-menu font-hide"><a href="#">About</a></li>
-    <li class="header__nav-menu font-hide"><a href="#">News</a></li>
-    <li class="header__nav-menu font-hide"><a hre="#">Site</a></li>
-    <li class="header__nav-menu font-hide"><a href="#">Photo</a></li>
-    <li class="header__nav-menu font-hide"><a href="#">Contact</a></li>
-  </ul>
+<header id="header">
+  <div class="p-header__content">
+    <h1 class="p-header__site-name c-font-hide">CatEye.note</h1>
+    <ul class="p-header__nav">
+      <li class="p-header__nav-menu c-font-hide"><a href="#">About</a></li>
+      <li class="p-header__nav-menu c-font-hide"><a href="#">News</a></li>
+      <li class="p-header__nav-menu c-font-hide"><a hre="#">Site</a></li>
+      <li class="p-header__nav-menu c-font-hide"><a href="#">Photo</a></li>
+      <li class="p-header__nav-menu c-font-hide"><a href="#">Contact</a></li>
+    </ul>
+  </div>
 </header>
+
+<section id="main-visual">
+  <div class="p-main-visual__content">
+    <div class="p-main-visual__image-box">
+      <img class="p-main-visual__image" src="<%= image_path("main-visual.jpg") %>" >
+    </div>
+    <div class="p-main-visual__catch-box">
+      <h2 class="p-main-visual__catch">日常生活の、<br>記録と雑記。</h2>
+      <p class="p-main-visual__site-name c-font-hide">CatEye.note</p>
+      <div class="c-border-line--white"></div>
+      <p class="p-main-visual__read-text">
+        石川県在住の新人エンジニアが<br>
+        作成したサイトです。<br>
+        <br>
+        日常生活での雑記、撮影した写真<br>
+        を残していきます。<br>
+        <br>
+        興味・関心が得られるものが<br>
+        あれば嬉しいです。<br>
+        のんびりご覧ください。<br>
+      </p>
+    </div>
+  </div>
+</section>

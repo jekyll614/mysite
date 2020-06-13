@@ -1,0 +1,36 @@
+.p-main-visual__content {
+  position: relative;
+}
+
+.p-main-visual__image-box {
+}
+
+.p-main-visual__image {
+  width: 100%;
+}
+
+.p-main-visual__catch-box {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(0, -50%);
+  color: white;
+}
+
+.p-main-visual__catch {
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  letter-spacing: 0.75rem;
+}
+
+.p-main-visual__site-name {
+  font-size: 1.6rem;
+  letter-spacing: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.p-main-visual__read-text {
+  font-size: 1.2rem;
+  letter-spacing: 0.25rem;
+}
