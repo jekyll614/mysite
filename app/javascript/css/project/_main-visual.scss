@@ -1,15 +1,16 @@
 .p-main-visual__content {
   position: relative;
+  margin-bottom: 2.4rem;
 }
 
-.p-main-visual__image-box {
+.p-main-visual__image-wrap {
 }
 
 .p-main-visual__image {
   width: 100%;
 }
 
-.p-main-visual__catch-box {
+.p-main-visual__catch-wrap {
   position: absolute;
   top: 50%;
   left: 40%;
@@ -26,11 +27,10 @@
 
 .p-main-visual__site-name {
   font-size: 1.6rem;
-  letter-spacing: 0.25rem;
   margin-bottom: 1rem;
 }
 
 .p-main-visual__read-text {
   font-size: 1.2rem;
-  letter-spacing: 0.25rem;
+  
 }

@@ -4,7 +4,7 @@
     <ul class="p-header__nav">
       <li class="p-header__nav-menu c-font-hide"><a href="#">About</a></li>
       <li class="p-header__nav-menu c-font-hide"><a href="#">News</a></li>
-      <li class="p-header__nav-menu c-font-hide"><a hre="#">Site</a></li>
+      <li class="p-header__nav-menu c-font-hide"><a href="#">Site</a></li>
       <li class="p-header__nav-menu c-font-hide"><a href="#">Photo</a></li>
       <li class="p-header__nav-menu c-font-hide"><a href="#">Contact</a></li>
     </ul>
@@ -13,10 +13,10 @@
 
 <section id="main-visual">
   <div class="p-main-visual__content">
-    <div class="p-main-visual__image-box">
+    <div class="p-main-visual__image-wrap">
       <img class="p-main-visual__image" src="<%= image_path("main-visual.jpg") %>" >
     </div>
-    <div class="p-main-visual__catch-box">
+    <div class="p-main-visual__catch-wrap">
       <h2 class="p-main-visual__catch">日常生活の、<br>記録と雑記。</h2>
       <p class="p-main-visual__site-name c-font-hide">CatEye.note</p>
       <div class="c-border-line--white"></div>
@@ -34,3 +34,105 @@
     </div>
   </div>
 </section>
+
+<section id="news">
+  <div class="p-news__content c-content-width">
+    <div class="p-news__content-wrap">
+      <div class="c-section-title__content news__section-title">
+        <p class="c-section-title__decoration">お知らせ</p>
+        <h3 class="c-section-title c-font-hide">NEWS</h3>
+      </div>
+      <div class="p-news__wrap">
+        <div class="p-news__info-wrap">
+          <div class="p-news__info">
+            <p class="p-news__date c-font-hide c-read-text-color">2020.07.01</p>
+            <p class="p-news__tag">更新情報</p>
+            <p class="p-news__title c-read-text-color">このサイトをリリースしました。</p>
+          </div>
+          <div class="c-read-text-color">+</div>
+        </div>
+        <p class="p-news__note">このサイトをリリースしました。リリースに当たるまでの経緯はこちらをご覧ください</p>
+      </div>
+      <div class="p-news__wrap">
+        <div class="p-news__info-wrap">
+          <div class="p-news__info">
+            <p class="p-news__date c-font-hide c-read-text-color">2020.07.01</p>
+            <p class="p-news__tag">更新情報</p>
+            <p class="p-news__title c-read-text-color">雑記を追加しました。</p>
+          </div>
+          <div class="c-read-text-color">+</div>
+        </div>
+        <p class="p-news__note">「このサイトについて」の雑記を追加しました。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="note" class="c-section-padding">
+  <div class="p-note__content c-content-width">
+    <div class="p-note__section-title c-section-title__content">
+      <p class="c-section-title__decoration">雑記</p>
+      <h3 class="c-section-title c-font-hide">NOTE</h3>
+      <div class="p-note__border-line c-border-line--black" data-aos="fade-right"></div>
+    </div>
+    <div class="p-note__wrap">
+      <a href="#" class="p-note__card">
+        <img class="p-note__image" src="<%= image_path("note/01.jpg") %>" >
+        <p class="p-note__date c-read-text-color c-font-hide">2020.07.01</p>
+        <p class="p-note__title c-read-text-color">このサイトについて</p>
+      </a>
+    </div>
+    <div class="p-note__wrap">
+      <a href="#" class="p-note__card">
+        <img class="p-note__image" src="<%= image_path("note/02.jpg") %>" >
+        <p class="p-note__date c-read-text-color c-font-hide">2020.07.01</p>
+        <p class="p-note__title c-read-text-color">自己紹介</p>
+      </a>
+    </div>
+    <div class="p-note__wrap">
+      <a href="#" class="p-note__card">
+        <img class="p-note__image" src="<%= image_path("note/03.jpg") %>" >
+        <p class="p-note__date c-read-text-color c-font-hide">2020.07.01</p>
+        <p class="p-note__title c-read-text-color">写真はじめました</p>
+      </a>
+    </div>
+    <div class="c-more-button__wrap">
+      <a href="#" class="c-more-button">
+        <p class="c-more-button__text font-hide">READ&nbsp;MORE</p>
+        <div class="c-more-button__arrow"></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="photo" class="c-section-padding">
+  <div class="c-content-width">
+    <div class="p-photo__section-title c-section-title__content">
+      <p class="p-photo__title c-section-title__decoration">撮影した写真</p>
+      <h3 class="c-section-title c-font-hide">PHOTO</h3>
+      <div class="p-photo__border-line c-border-line--black" data-aos="fade-right"></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="c-section-padding">
+  <div class="p-contact__content c-content-width">
+    <div class="p-contact__section-title c-section-title__content">
+      <p class="c-section-title__decoration">お問い合わせ</p>
+      <h3 class="c-section-title c-font-hide">CONTACT</h3>
+      <div class="c-border-line--black" data-aos="fade-right"></div>
+    </div>
+    <p class="p-contact__read-text">気軽にこちらのSNSをご利用ください。</p>
+    <div class="p-contact__wrap">
+      <a href="https://twitter.com/nekojekyll" class="p-contact__twitter c-font-hide">Twitter</a>
+      <a href="https://www.instagram.com/neko.jekyll/" class="p-contact__instagram c-font-hide">Instagram</a>
+    </div>
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="p-footer__content c-content-width">
+    <p class="p-footer__copyright c-font-hide">Copyright © 2020 Ryo T. All Rights Reserved.<p>
+    <img class="p-footer__image" src="<%= image_path("cat-icon01.png") %>" >
+  </div>
+</footer>
