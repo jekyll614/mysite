@@ -77,7 +77,7 @@
     </div>
     <div class="p-note__wrap">
       <a href="#" class="p-note__card">
-        <img class="p-note__image" src="<%= image_path("note/01.jpg") %>" >
+        <img class="p-note__image" src="<%= image_path("note/09.jpg") %>" >
         <p class="p-note__date c-read-text-color c-font-hide">2020.07.01</p>
         <p class="p-note__title c-read-text-color">このサイトについて</p>
       </a>
@@ -97,7 +97,7 @@
       </a>
     </div>
     <div class="c-more-button__wrap">
-      <a href="#" class="c-more-button">
+      <a href="<%= notes_path %>" class="c-more-button">
         <p class="c-more-button__text font-hide">READ&nbsp;MORE</p>
         <div class="c-more-button__arrow"></div>
       </a>
@@ -106,12 +106,16 @@
 </section>
 
 <section id="photo" class="c-section-padding">
-  <div class="c-content-width">
+  <div class="p-photo__content c-content-width">
     <div class="p-photo__section-title c-section-title__content">
       <p class="p-photo__title c-section-title__decoration">撮影した写真</p>
       <h3 class="c-section-title c-font-hide">PHOTO</h3>
       <div class="p-photo__border-line c-border-line--black" data-aos="fade-right"></div>
     </div>
+    <a href="<%= photos_path %>" class="p-photo__wrap">
+      <img class="p-photo__image" src="<%= image_path("photo.jpg") %>" >
+      <p class="p-photo__image-text c-font-hide" >GALLERY</p>
+    </a>
   </div>
 </section>
 

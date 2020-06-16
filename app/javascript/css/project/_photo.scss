@@ -1,5 +1,6 @@
 .p-photo__section-title {
   text-align: right;
+  margin-bottom: 2.4rem;
 }
 
 .p-photo__title {
@@ -8,4 +9,21 @@
 
 .p-photo__border-line {
   margin-right: 0.75rem;
+}
+
+.p-photo__wrap {
+  position: relative;
+  display: block;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.p-photo__image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  font-weight: 500;
+  color: white;
 }

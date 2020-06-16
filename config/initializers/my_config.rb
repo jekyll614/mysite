@@ -1,0 +1,1 @@
+notes = YAML.load(File.read("#{Rails.root}/lib/data/notes.yml"))
